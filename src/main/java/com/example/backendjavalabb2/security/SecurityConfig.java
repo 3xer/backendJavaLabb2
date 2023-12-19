@@ -45,7 +45,7 @@ public class SecurityConfig {
 
 
     @Bean
-    @Description("In memory Userdetails service registered")
+    @Description("Authentication names and pw")
     public UserDetailsService users(PasswordEncoder encoder) {
         // The builder will ensure the passwords are encoded before saving in memory
         UserDetails user = User.builder()

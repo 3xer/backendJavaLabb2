@@ -7,7 +7,7 @@ import java.util.Objects;
 import java.util.function.IntPredicate;
 
 
-//get explaination
+
 public class EmojiSymbolValidator implements ConstraintValidator<EmojiSymbol, String> {
     @Override
     public boolean isValid(String symbol, ConstraintValidatorContext constraintValidatorContext){

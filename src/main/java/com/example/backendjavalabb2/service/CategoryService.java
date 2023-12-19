@@ -1,7 +1,6 @@
 package com.example.backendjavalabb2.service;
 
-import com.example.backendjavalabb2.Dto.CategoryDto;
-import com.example.backendjavalabb2.Dto.ProjectionCategory;
+
 import com.example.backendjavalabb2.entity.Category;
 import com.example.backendjavalabb2.repo.CategoryRepo;
 import org.springframework.stereotype.Service;
